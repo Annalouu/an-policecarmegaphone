@@ -26,7 +26,6 @@ end)
 
 function StartListeningForControlmegaphone()
 	listentokey = true
-	InputDisabled = false
 	CreateThread(function()
 		while listentokey do
 			if IsControlJustPressed(0, 61) then 
