@@ -15,3 +15,5 @@ A small script i wrote to add the ability to have a megaphone in the cop cars
   ```
   if DoesEntityExist(vehicle) and vehicleClass == 18 and PlayerJob == 'police' or PlayerJob == 'bcso' then
   ```
+
+Optimised by: https://github.com/JericoFX
